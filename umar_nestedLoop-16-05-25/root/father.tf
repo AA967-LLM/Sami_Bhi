@@ -11,6 +11,7 @@ variable "SA_name_father" {
 }
 
 #testing what happens if a line is added in the code
+#testing 2nd line addition after creating a branch 
 
 module "rg_name" {
     source = "../child/resource_group"
