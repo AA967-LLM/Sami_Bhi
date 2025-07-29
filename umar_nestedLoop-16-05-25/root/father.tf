@@ -10,6 +10,10 @@ variable "SA_name_father" {
   
 }
 
+
+#testing 2nd line addition after creating a branch 
+#lines removed please confirm
+
 module "rg_name" {
     source = "../child/resource_group"
     rg_name_child = var.rg_name_father
