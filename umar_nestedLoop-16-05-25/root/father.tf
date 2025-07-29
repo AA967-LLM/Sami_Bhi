@@ -10,6 +10,8 @@ variable "SA_name_father" {
   
 }
 
+#testing what happens if a line is added in the code
+
 module "rg_name" {
     source = "../child/resource_group"
     rg_name_child = var.rg_name_father
